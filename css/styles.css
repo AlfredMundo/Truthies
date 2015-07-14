@@ -66,8 +66,36 @@ height: .5em;
 body{
 	font-size: 16px;
 }
+p{
+	margin: 0;
+}
 /* para las imagenes */
 img{
 	max-width: 100%;
 	height: auto;
+}
+/* terminan las imagenes */
+/*barra del logo*/
+.linea{
+background-color: #434479;
+width: 100%;
+height: .5em;
+}
+.header{
+	background-color: #4F4D8E;
+	width: 100%;
+	height: 2.5em;
+}
+.logo{
+	color: #DBE077;
+	float: left;
+	margin: .35em 0 .2em .4em; 
+}
+/* termina barra del logo*/
+/* publicacion*/
+.nombreUsuario{
+	color:#333333;
+}
+.arroba{
+	color:#818181;
 }
