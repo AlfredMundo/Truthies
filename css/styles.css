@@ -62,14 +62,20 @@ height: .5em;
 	position: relative;
 	left: 100%;
 	bottom: 100%;
+}
 	*/
-body{
-	font-size: 16px;
+div{
 }
 p{
 	margin: 0;
 }
+a{
+	color:#818181;
+}
 /* para las imagenes */
+figure{
+	text-align: center;
+}
 img{
 	max-width: 100%;
 	height: auto;
@@ -93,9 +99,74 @@ height: .5em;
 }
 /* termina barra del logo*/
 /* publicacion*/
+.usuario{
+	background-color: rgba(219,224,119,.3);
+	width: 100%;
+	height: 2.5em;
+	float: left;
+	line-height: 50%;
+}
+.fotoPerfil{
+	background-color: #DBE077;
+	border-radius: 50%;
+	width: 1.5em;
+	height: 1.5em;
+	margin: .5em .3em .5em .3em;
+	display: inline-block;
+	float: left;
+}
+.nombre{
+	margin-top: .65em;
+	display: inline-block;
+}
 .nombreUsuario{
 	color:#333333;
+	font-size: 15px;
 }
 .arroba{
-	color:#818181;
+	font-size: 7px;
+	color: #A0A0A0;
+	text-decoration: none;
+}
+.hora{
+	float: right;
+	font-size: 9px;
+	margin: 1.75em;
+	display: inline-block;
+	color: #A0A0A0;
+}
+/* comienzan los comentarios */
+.comentBox{
+	background-color: rgba(219,224,119,.25);
+	border-bottom:.1em solid #DBE077;
+	line-height: 55%;
+}
+.bloqueComentario{
+	margin: .5em 2em .2em .3em;
+	font-size: 12px;
+	text-align: left;
+}
+.rayita{
+background-color: #DBE077;
+border-radius: 50%;
+width: 10px;
+height: 3px;
+float: left;
+position:relative;
+left:0;
+margin: .5em 1.2em;
+}
+.circulo{
+background-color: #4F4D8E;
+border-radius: 50%;
+width: 10px;
+height: 10px; 
+float: left;
+margin: .2em 1.2em;
+}
+.texto{
+	margin: 0 1em;
+}
+span{
+	color: #4F4D8E;
 }
