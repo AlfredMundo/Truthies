@@ -139,7 +139,7 @@ height: .5em;
 .comentBox{
 	background-color: rgba(219,224,119,.25);
 	border-bottom:.1em solid #DBE077;
-	line-height: 55%;
+	line-height: 45%;
 }
 .bloqueComentario{
 	margin: .5em 2em .2em .3em;
@@ -169,4 +169,14 @@ margin: .2em 1.2em;
 }
 span{
 	color: #4F4D8E;
+}
+.mostrarMas{
+text-align: center;
+}
+.cubito{
+	background-color: #4F4D8E;
+	height:.3em; 
+	width:.3em;
+	display:inline-block;
+	margin:.5em 0;
 }
